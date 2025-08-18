@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="h-[36px] mainContainer bg-primary-900 text-white flex justify-between items-center p4 font-medium">
+    <div className="h-[36px] mainContainer bg-primary-900 text-white hidden md:flex justify-between items-center p4 font-medium">
       <p>Working Time: Mon - Thu 9:00 AM - 5:00 PM</p>
       <div className="flex gap-5 items-center">
         <div className="flex gap-2 items-center">
