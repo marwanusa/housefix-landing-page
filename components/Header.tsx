@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex gap-5 items-center">
         <div className="flex gap-2 items-center">
           <Image
-            src={"/assets/icons/Email-2.svg"}
+            src={"/assets/icons/Email2.svg"}
             width={16}
             height={12}
             alt="Email"
