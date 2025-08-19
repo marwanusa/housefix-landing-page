@@ -1,4 +1,4 @@
-import { FooterLinkSection } from "@/types/types";
+import { FooterLinkSection, serviceDataType } from "@/types/types";
 
 export const footerContact = [
   {
@@ -64,5 +64,56 @@ export const footerLinks: FooterLinkSection[] = [
         href: "/changelog",
       },
     ],
+  },
+];
+
+export const servicesData: serviceDataType[] = [
+  {
+    image: "PipeInstallation.png",
+    icon: "PipeInstallation.svg",
+    title: "Plumbing Installation",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "GeneralPlumbing.png",
+    icon: "PipePlumbing.svg",
+    title: "General Plumbing",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "PlumbingMaintanence.png",
+    icon: "PipeMaintanence.svg",
+    title: "Plumbing Maintanence",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "FixingPipes.png",
+    icon: "PipeDualPipe.svg",
+    title: "Fixing Pipes",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "PlumbingLineConsultation.png",
+    icon: "PipeLineConsultation.svg",
+    title: "Plumbing Line Consultation",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "DrainCleaning.png",
+    icon: "PipeSunction.svg",
+    title: "Drain Cleaning",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "PlumbingMaintanence.png",
+    icon: "PipeMaintanence.svg",
+    title: "Plumbing Maintanence",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
+  },
+  {
+    image: "PipeInstallation.png",
+    icon: "PipeInstallation.svg",
+    title: "Plumbing Installation",
+    text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
   },
 ];
