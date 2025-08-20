@@ -42,7 +42,7 @@ const ServiceCard = ({
         </h3>
 
         {/* Description */}
-        <p className="text-primary-800 p3 mb-6 group-hover:text-primary-50">
+        <p className="text-primary-800 p3 mb-6 group-hover:text-primary-50 line-clamp-3">
           {description}
         </p>
 
