@@ -1,12 +1,14 @@
 import React from "react";
 import ServiceCard from "../ServiceCard";
 import { servicesData } from "@/data/data";
+import Heading from "../Heading";
 
 const ServicesSection = () => {
 
   return (
-  <div className="md:py-[80px] py-[60px] mainContainer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
-    
+    <div className="flex flex-col gap-6 items-center md:py-[80px] py-[60px] mainContainer">
+    <Heading head="The Best Plumbing Service & Maintanence" title="Services We Provide"/>
+  <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-4 ">
     {
       servicesData.map((service,idx)=>{
         return(
@@ -16,6 +18,7 @@ const ServicesSection = () => {
         )
       })
     }
+  </div>
   </div>
   )
 };

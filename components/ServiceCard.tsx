@@ -19,7 +19,7 @@ const ServiceCard = ({
   onButtonClick,
 }: CardProps) => {
   return (
-    <div className="group bg-white rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto hover:bg-primary-500 focus:bg-primary-600 transition-all ">
+    <div className="group bg-white rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto hover:bg-primary-500 focus:bg-primary-600 transition-all max-h-[447px]">
       {/* Image Section */}
       <div className="relative h-48 overflow-hidden">
         <img src={image} alt={title} className="w-full h-full object-cover" />

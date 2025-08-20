@@ -1,4 +1,9 @@
-import { FooterLinkSection, serviceDataType } from "@/types/types";
+import {
+  FooterLinkSection,
+  PlumbingServicesDataType,
+  serviceDataType,
+  testimonialsType,
+} from "@/types/types";
 
 export const footerContact = [
   {
@@ -117,3 +122,319 @@ export const servicesData: serviceDataType[] = [
     text: "Lorem ipsum dolor sit amet consectetur. Adipiscing quis ornare hac convallis a diam gravida in. Ac in tempus leo dolor nisl donec erat consequat.",
   },
 ];
+
+export const plansData = [
+  {
+    duration: "Monthly",
+    plans: [
+      {
+        title: "Residential Plumbing",
+        price: "199",
+        gurantees: [
+          "Free Diagnostics & Consultation",
+          "Plumbing Repairs",
+          "Emergency Plumbing",
+          "Sewer & Drain Cleaning",
+          "Trenchless Sewer Replacement",
+          "Heater Installation & Replacement, Repair",
+        ],
+      },
+      {
+        title: "Commercial Plumbing",
+        price: "499",
+        gurantees: [
+          "Comprehensive System Inspection",
+          "Water Line Installation & Repair",
+          "Backflow Prevention Services",
+          "Grease Trap Installation & Cleaning",
+          "Commercial Sewer & Drain Solutions",
+          "Industrial Water Heater Installation & Maintenance",
+        ],
+      },
+      {
+        title: "Service & Repair",
+        price: "399",
+        gurantees: [
+          "Detailed Diagnostics & Troubleshooting",
+          "Fixture Repair & Replacement",
+          "Leak Detection & Repair",
+          "Pipe & Valve Maintenance",
+          "Drain & Clog Removal",
+          "Water Heater Repair & Servicing",
+        ],
+      },
+    ],
+  },
+  {
+    duration: "Annual",
+    plans: [
+      {
+        title: "Residential Plumbing",
+        price: "1999",
+        gurantees: [
+          "Free Yearly Diagnostics & Consultation",
+          "Unlimited Plumbing Repairs",
+          "24/7 Emergency Plumbing Support",
+          "Annual Sewer & Drain Maintenance",
+          "Trenchless Sewer Replacement Coverage",
+          "Heater Installation, Replacement & Yearly Service",
+        ],
+      },
+      {
+        title: "Commercial Plumbing",
+        price: "4999",
+        gurantees: [
+          "Full-System Annual Inspection",
+          "Yearly Water Line Maintenance & Repairs",
+          "Advanced Backflow Prevention Management",
+          "Grease Trap Annual Cleaning & Replacement",
+          "Commercial Sewer & Drain Annual Plan",
+          "Industrial Water Heater Annual Servicing & Replacement",
+        ],
+      },
+      {
+        title: "Service & Repair",
+        price: "3999",
+        gurantees: [
+          "Yearly Diagnostics & Preventive Checks",
+          "Unlimited Fixture Repair & Replacement",
+          "Proactive Leak Detection & Repair Coverage",
+          "Pipe & Valve Annual Maintenance",
+          "Clog-Free Annual Drain Guarantee",
+          "Comprehensive Water Heater Servicing Plan",
+        ],
+      },
+    ],
+  },
+];
+
+export const PlumbingServicesData: PlumbingServicesDataType = {
+  all: [
+    {
+      title: "Water Line Repair",
+      category: "Plumbing",
+      description:
+        "Expert repair and replacement of water lines, fixing leaks and ensuring proper water flow throughout your property.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Drain Cleaning",
+      category: "Plumbing",
+      description:
+        "Professional drain cleaning services to remove clogs and blockages, restoring proper drainage in sinks, toilets, and showers.",
+      imageUrl: "/assets/backgrounds/DrainCleaning.png",
+    },
+    {
+      title: "Pipe Installation",
+      category: "Plumbing",
+      description:
+        "Complete pipe installation and replacement services for residential and commercial properties using high-quality materials.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Faucet Repair",
+      category: "Plumbing",
+      description:
+        "Quick and efficient faucet repair and replacement services for kitchens, bathrooms, and utility areas.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Toilet Installation",
+      category: "Plumbing",
+      description:
+        "Professional toilet installation and repair services, including fixing leaks, clogs, and complete replacements.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Water Heater Service",
+      category: "Plumbing",
+      description:
+        "Comprehensive water heater installation, maintenance, and repair services for gas, electric, and tankless units.",
+      imageUrl: "/assets/backgrounds/aboutusSection.png",
+    },
+  ],
+  commercial: [
+    {
+      title: "Commercial Pipe Systems",
+      category: "Commercial Plumbing",
+      description:
+        "Large-scale pipe installation and maintenance for office buildings, restaurants, and commercial facilities.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Industrial Drain Solutions",
+      category: "Commercial Plumbing",
+      description:
+        "Heavy-duty drain cleaning and maintenance for industrial facilities and commercial kitchens.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Commercial Water Systems",
+      category: "Commercial Plumbing",
+      description:
+        "Installation and maintenance of commercial water heating systems and pressure regulation equipment.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Backflow Prevention",
+      category: "Commercial Plumbing",
+      description:
+        "Installation and testing of backflow prevention devices to protect water supply in commercial buildings.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=300&fit=crop",
+    },
+  ],
+  residential: [
+    {
+      title: "Bathroom Plumbing",
+      category: "Residential Services",
+      description:
+        "Complete bathroom plumbing solutions including fixture installation, leak repairs, and pipe upgrades.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Kitchen Plumbing",
+      category: "Residential Services",
+      description:
+        "Kitchen sink installation, garbage disposal repair, and dishwasher connection services for your home.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Home Water Heaters",
+      category: "Residential Services",
+      description:
+        "Residential water heater installation, repair, and maintenance for optimal hot water supply in your home.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Leak Detection",
+      category: "Residential Services",
+      description:
+        "Advanced leak detection services to identify hidden water leaks and prevent costly water damage.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=300&fit=crop",
+    },
+  ],
+  emergency: [
+    {
+      title: "24/7 Pipe Burst",
+      category: "Emergency Services",
+      description:
+        "Immediate response for burst pipes and water emergencies to minimize damage and restore water service quickly.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Emergency Drain Clearing",
+      category: "Emergency Services",
+      description:
+        "Urgent drain clearing services for severe blockages that threaten to cause flooding or backup.",
+      imageUrl: "/assets/backgrounds/DrainCleaning.png",
+    },
+    {
+      title: "Water Heater Emergency",
+      category: "Emergency Services",
+      description:
+        "Emergency water heater repair and replacement services when you suddenly lose hot water supply.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Flood Prevention",
+      category: "Emergency Services",
+      description:
+        "Rapid response to prevent and mitigate water damage from plumbing failures and flooding situations.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=300&fit=crop",
+    },
+  ],
+};
+
+
+
+
+export const testimonialsData:testimonialsType[]  = [
+  {
+    stars: 5,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. Pretium malesuada pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus amet commodo aliquet a phasellus malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Euismod egestas scelerisque viverra feugiat sit amet.",
+    avatar: "https://i.pravatar.cc/100?img=1",
+    name: "Michael Adam",
+    role: "Hotel Manager",
+  },
+  {
+    stars: 4,
+    review:
+      "Facilisis ridiculus amet commodo aliquet a phasellus malesuada. Ac id quam mattis neque. Urna tellus ut maecenas interdum. Sit amet porttitor eget dolor morbi non arcu risus quis varius quam. Proin eget tortor risus.",
+    avatar: "https://i.pravatar.cc/100?img=2",
+    name: "Wade Warren",
+    role: "Marketing Coordinator",
+  },
+  {
+    stars: 5,
+    review:
+      "Urna tellus ut maecenas interdum. Euismod egestas scelerisque viverra feugiat sit amet. Etiam ultricies nisi vel augue. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Integer posuere erat a ante.",
+    avatar: "https://i.pravatar.cc/100?img=3",
+    name: "Albert Flores",
+    role: "President of Sales",
+  },
+  {
+    stars: 3,
+    review:
+      "Habitant tristique senectus et netus et malesuada fames ac turpis egestas. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue leo eget malesuada.",
+    avatar: "https://i.pravatar.cc/100?img=4",
+    name: "Jane Cooper",
+    role: "Product Designer",
+  },
+  {
+    stars: 5,
+    review:
+      "Eget sit amet tellus cras adipiscing enim eu turpis egestas pretium. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada.",
+    avatar: "https://i.pravatar.cc/100?img=5",
+    name: "Esther Howard",
+    role: "Project Manager",
+  },
+  {
+    stars: 4,
+    review:
+      "Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec rutrum congue leo eget malesuada.",
+    avatar: "https://i.pravatar.cc/100?img=6",
+    name: "Devon Lane",
+    role: "Software Engineer",
+  },
+  {
+    stars: 5,
+    review:
+      "Sit amet porttitor eget dolor morbi non arcu risus quis varius quam. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Praesent sapien massa, convallis a pellentesque nec.",
+    avatar: "https://i.pravatar.cc/100?img=7",
+    name: "Eleanor Pena",
+    role: "HR Specialist",
+  },
+  {
+    stars: 4,
+    review:
+      "Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
+    avatar: "https://i.pravatar.cc/100?img=8",
+    name: "Marvin McKinney",
+    role: "UI/UX Designer",
+  },
+  {
+    stars: 5,
+    review:
+      "Sem viverra aliquet eget sit amet tellus cras adipiscing enim eu. Donec sollicitudin molestie malesuada. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat.",
+    avatar: "https://i.pravatar.cc/100?img=9",
+    name: "Brooklyn Simmons",
+    role: "Business Analyst",
+  },
+];
+
