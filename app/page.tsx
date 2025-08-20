@@ -1,5 +1,7 @@
 import AboutUsSection from "@/components/HomeSections/AboutUsSection";
+import BlogSection from "@/components/HomeSections/BlogSection";
 import HeroSection from "@/components/HomeSections/HeroSection";
+import PartnersSection from "@/components/HomeSections/PartnersSection";
 import PricingPlansSection from "@/components/HomeSections/PricingPlansSection";
 import ProvidedServices from "@/components/HomeSections/ProvidedServices";
 import RecentWorksSection from "@/components/HomeSections/RecentWorksSection";
@@ -16,6 +18,8 @@ export default function Home() {
     <RecentWorksSection/>
     <ProvidedServices/>
     <TestimonialsSection/>
+    <PartnersSection/>
+    <BlogSection/>
   </div>
   );
 }

@@ -1,4 +1,5 @@
 import {
+  BlogCardProps,
   FooterLinkSection,
   PlumbingServicesDataType,
   serviceDataType,
@@ -360,10 +361,7 @@ export const PlumbingServicesData: PlumbingServicesDataType = {
   ],
 };
 
-
-
-
-export const testimonialsData:testimonialsType[]  = [
+export const testimonialsData: testimonialsType[] = [
   {
     stars: 5,
     review:
@@ -438,3 +436,59 @@ export const testimonialsData:testimonialsType[]  = [
   },
 ];
 
+export const BlogData: BlogCardProps[] = [
+  {
+    image:
+      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
+    category: "TIPS & TRICKS",
+    title: "The Do's and Don'ts of Fixing a Blocked Drain",
+    date: "January 4, 2022",
+    description:
+      "The Do's and Don'ts of Fixing a Blocked Drain Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+    category: "MAINTENANCE",
+    title: "Essential Home Plumbing Maintenance Guide",
+    date: "February 15, 2022",
+    description:
+      "Learn the essential maintenance tasks every homeowner should know to keep their plumbing system running smoothly and prevent costly repairs.",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=300&fit=crop",
+    category: "REPAIRS",
+    title: "How to Fix a Leaky Faucet in 5 Easy Steps",
+    date: "March 8, 2022",
+    description:
+      "Stop wasting water and money with this comprehensive guide to fixing common faucet leaks using basic tools you probably already have.",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400&h=300&fit=crop",
+    category: "TIPS & TRICKS",
+    title: "10 Signs Your Pipes Need Professional Attention",
+    date: "June 3, 2022",
+    description:
+      "Don't ignore these warning signs that indicate your plumbing system needs professional inspection and possible repair or replacement.",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=300&fit=crop",
+    category: "UPGRADES",
+    title: "Modern Bathroom Fixtures: Style Meets Function",
+    date: "July 18, 2022",
+    description:
+      "Explore the latest trends in bathroom fixtures that combine aesthetic appeal with water efficiency and smart home integration.",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=400&h=300&fit=crop",
+    category: "MAINTENANCE",
+    title: "Seasonal Plumbing Checklist for Homeowners",
+    date: "August 25, 2022",
+    description:
+      "Stay ahead of plumbing problems with this comprehensive seasonal maintenance checklist that covers spring, summer, fall, and winter tasks.",
+  },
+];

@@ -37,3 +37,11 @@ export type testimonialsType = {
   role: string;
 };
 
+export interface BlogCardProps {
+  image: string;
+  category: string;
+  title: string;
+  date: string;
+  description: string;
+  readMoreLink?: string;
+}

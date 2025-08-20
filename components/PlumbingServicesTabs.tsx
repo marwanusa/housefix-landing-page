@@ -49,8 +49,8 @@ const ServiceCard = ({ title, category, description, imageUrl }:PlumbingServiceT
 export default function PlumbingServicesTabs() {
   return (
     <div className="w-full max-w-6xl mx-auto p-6">
-      <Tabs defaultValue="tab-1" className="w-full">
-        <TabsList className="text-foreground h-auto gap-2 rounded-none border-b bg-transparent px-0 py-1 w-full justify-start">
+      <Tabs defaultValue="tab-1"  >
+        <TabsList className="text-foreground h-auto gap-2 rounded-none border-b bg-transparent px-0 py-1 w-full justify-start flex flex-col md:flex-row">
           <TabsTrigger
             value="tab-1"
             className="hover:bg-accent hover:text-foreground data-[state=active]:after:bg-blue-500 data-[state=active]:hover:bg-accent relative after:absolute after:inset-x-0 after:bottom-0 after:-mb-1 after:h-0.5 data-[state=active]:bg-transparent data-[state=active]:shadow-none"
