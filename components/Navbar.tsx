@@ -25,10 +25,12 @@ const navigationLinks = [
     submenu: true,
     type: "simple",
     items: [
-      { href: "#", label: "Product A" },
-      { href: "#", label: "Product B" },
-      { href: "#", label: "Product C" },
-      { href: "#", label: "Product D" },
+      { href: "/#services", label: "Services" },
+      { href: "/#recentworks", label: "Recent Works" },
+      { href: "/#pricing", label: "Pricing Plans" },
+      { href: "/#testimonials", label: "Testimonials" },
+      { href: "/#partners", label: "Partners" },
+      { href: "/#blog", label: "Blog" },
     ],
   },
   {
@@ -39,17 +41,14 @@ const navigationLinks = [
       {
         href: "/services",
         label: "Services",
-        description: "Browse all components in the library.",
+        description:
+          "Discover the range of professional services we provide to meet your needs.",
       },
       {
-        href: "#",
-        label: "Documentation",
-        description: "Learn how to use the library.",
-      },
-      {
-        href: "#",
-        label: "Templates",
-        description: "Pre-built layouts for common use cases.",
+        href: "/about-us",
+        label: "About Us",
+        description:
+          "Get to know our story, mission, and the team behind our success.",
       },
     ],
   },
@@ -124,7 +123,6 @@ export default function Navbar() {
                         </NavigationMenuLink>
                       )}
                       {index < navigationLinks.length - 1 &&
-
                         ((!link.submenu &&
                           navigationLinks[index + 1].submenu) ||
                           (link.submenu &&

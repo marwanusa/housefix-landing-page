@@ -2,6 +2,7 @@ import {
   BlogCardProps,
   FooterLinkSection,
   PlumbingServicesDataType,
+  ProfileCard,
   serviceDataType,
   testimonialsType,
 } from "@/types/types";
@@ -491,4 +492,60 @@ export const BlogData: BlogCardProps[] = [
     description:
       "Stay ahead of plumbing problems with this comprehensive seasonal maintenance checklist that covers spring, summer, fall, and winter tasks.",
   },
+];
+
+
+export const ProfessionalData: ProfileCard[] = [
+  {
+    id: 1,
+    name: "Steven Grant",
+    profession: "Plumber",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+    socialLinks: {
+      facebook: "#",
+      linkedin: "#",
+      twitter: "#",
+      telegram: "#",
+      email: "#"
+    }
+  },
+  {
+    id: 2,
+    name: "Maria Rodriguez",
+    profession: "Electrician",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop&crop=face",
+    socialLinks: {
+      facebook: "#",
+      linkedin: "#",
+      twitter: "#",
+      telegram: "#",
+      email: "#"
+    }
+  },
+  {
+    id: 3,
+    name: "David Chen",
+    profession: "HVAC Technician",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+    socialLinks: {
+      facebook: "#",
+      linkedin: "#",
+      twitter: "#",
+      telegram: "#",
+      email: "#"
+    }
+  },
+  {
+    id: 4,
+    name: "Sarah Johnson",
+    profession: "Carpenter",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+    socialLinks: {
+      facebook: "#",
+      linkedin: "#",
+      twitter: "#",
+      telegram: "#",
+      email: "#"
+    }
+  }
 ];

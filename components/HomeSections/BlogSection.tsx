@@ -5,7 +5,7 @@ import BlogCard from "../BlogCard";
 
 const BlogSection = () => {
   return (
-    <div className="flex flex-col gap-8 py-[60px] md:py-[100px] bg-primary-50">
+    <div className="flex flex-col gap-8 py-[60px] md:py-[100px] bg-primary-50" id="blog">
       <Heading title="Our Blog" head="Emergency Tips & Tricks" />
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2">
         {BlogData.map((card, idx) => {

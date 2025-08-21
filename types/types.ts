@@ -45,3 +45,17 @@ export interface BlogCardProps {
   description: string;
   readMoreLink?: string;
 }
+
+export interface ProfileCard {
+  id: number;
+  name: string;
+  profession: string;
+  image: string;
+  socialLinks: {
+    facebook?: string;
+    linkedin?: string;
+    twitter?: string;
+    telegram?: string;
+    email?: string;
+  };
+}

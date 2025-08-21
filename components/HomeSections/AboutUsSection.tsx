@@ -9,7 +9,7 @@ const AboutUsSection = () => {
     "Nulla Condimentum",
   ];
   return (
-    <div className="py-[60px] md:py-[80px] lg:py-[100px] flex flex-col lg:flex-row items-center justify-evenly mainContainer gap-10">
+    <div className="py-[60px] md:py-[80px] lg:py-[100px] flex flex-col lg:flex-row items-center justify-evenly mainContainer gap-10" >
       <div className='relative  after:content-[""] after:absolute after:bg-primary-500 after:w-full after:h-full after:left-5 after:top-5 after:z-[-1]'>
         <Image
           src={"/assets/backgrounds/aboutusSection.png"}

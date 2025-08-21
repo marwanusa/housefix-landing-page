@@ -6,7 +6,7 @@ import TestimonialCard from "../TestimonialCard";
 
 const TestimonialsSection = () => {
   return (
-    <div className="mainContainer py-[60px] md:py-[80px] lg:py-[100px] flex flex-col gap-8">
+    <div className="mainContainer py-[60px] md:py-[80px] lg:py-[100px] flex flex-col gap-8" id="testimonials">
       <Heading
         head="Our Partner & Customer Give The Best Review For Us"
         title="Customer Testimonial"

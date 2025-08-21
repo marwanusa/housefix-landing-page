@@ -19,7 +19,7 @@ const PricingPlansSection = () => {
   }, [checked]);
 
   return (
-    <div className="lg:py-[100px] md:py-[80px] py-[60px] flex flex-col gap-4  bg-primary-50 mainContainer">
+    <div className="lg:py-[100px] md:py-[80px] py-[60px] flex flex-col gap-4  bg-primary-50 mainContainer" id="pricing">
       <Heading title="Pricing Plans" head="Affordable Pricing Plans" />
       <ToggleSwitch
         on="Annual"

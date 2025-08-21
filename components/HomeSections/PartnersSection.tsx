@@ -14,7 +14,7 @@ const PartnersSection = () => {
     "Sitpoint.svg",
   ];
   return (
-    <div className="flex flex-col mainContainer py-[60px]">
+    <div className="flex flex-col mainContainer py-[60px]" id="partners">
       <Heading head="Our Partners" title="Worked With" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-x-8 gap-y-12">
         {images.map((img, idx) => {
