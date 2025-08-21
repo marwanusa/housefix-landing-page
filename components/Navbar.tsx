@@ -37,8 +37,8 @@ const navigationLinks = [
     type: "description",
     items: [
       {
-        href: "#",
-        label: "Components",
+        href: "/services",
+        label: "Services",
         description: "Browse all components in the library.",
       },
       {
@@ -123,11 +123,8 @@ export default function Navbar() {
                           {link.label}
                         </NavigationMenuLink>
                       )}
-                      {/* Add separator between different types of items */}
                       {index < navigationLinks.length - 1 &&
-                        // Show separator if:
-                        // 1. One is submenu and one is simple link OR
-                        // 2. Both are submenus but with different types
+
                         ((!link.submenu &&
                           navigationLinks[index + 1].submenu) ||
                           (link.submenu &&

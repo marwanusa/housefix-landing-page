@@ -19,7 +19,7 @@ const ServiceCard = ({
   onButtonClick,
 }: CardProps) => {
   return (
-    <div className="group bg-white rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto hover:bg-primary-500 focus:bg-primary-600 transition-all max-h-[447px]">
+    <div className="group bg-white rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto hover:bg-primary-500 focus:bg-primary-600 transition-all max-h-[447px] border-b-5 border-b-primary-500">
       {/* Image Section */}
       <div className="relative h-48 overflow-hidden">
         <img src={image} alt={title} className="w-full h-full object-cover" />
@@ -37,7 +37,7 @@ const ServiceCard = ({
         />
 
         {/* Title */}
-        <h3 className="text-xl font-semibold text-neutral-900 mb-3 group-hover:text-primary-50">
+        <h3 className="text-xl font-semibold text-neutral-900 mb-3 group-hover:text-primary-50 line-clamp-1">
           {title}
         </h3>
 
