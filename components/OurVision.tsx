@@ -43,7 +43,7 @@ const OurVision = () => {
       <div className="flex gap-2 justify-center items-center">
         <h5 className="h5 font-medium text-white ">OUR VISION</h5>
         <Image
-          src={"/assets/icons/Arrow-Right.svg"}
+          src={"/assets/icons/ArrowRight.svg"}
           width={38}
           height={16}
           alt="arrow image"
