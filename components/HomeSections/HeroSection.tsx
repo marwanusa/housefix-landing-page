@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[url(/assets/backgrounds/firstHeroSection.png)] bg-cover w-full h-[877px] md:h-[1129px] lg:h-[730px] mainContainer flex flex-col lg:flex-row justify-between lg:justify-center items-center text-white   ">
+    <div className="bg-[url(/assets/backgrounds/firstHeroSection.png)] bg-cover w-full  md:h-[1129px] lg:h-[730px] mainContainer flex flex-col lg:flex-row justify-between lg:justify-center items-center text-white   ">
       <div className="flex flex-col gap-8 justify-center items-center max-w-[636px] lg:pt-0 md:pt-20 pt-8">
         <h1 className="h2 lg:h1 font-bold ">
           Plumbing Experts Right at Your Doorstep
