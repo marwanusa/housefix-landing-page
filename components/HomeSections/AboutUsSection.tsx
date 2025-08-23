@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../Button";
+import Link from "next/link";
 
 const AboutUsSection = () => {
   const checkItems: string[] = [
@@ -40,6 +41,7 @@ const AboutUsSection = () => {
             </div>
           );
         })}
+        <Link href={"/about-us"}>
         <Button variant="primary" iconPosition="left" size="lg" className="gap-2">
           More About Us
           <Image
@@ -50,6 +52,7 @@ const AboutUsSection = () => {
             className="invert brightness-0 "
           />
         </Button>
+        </Link>
       </div>
     </div>
   );

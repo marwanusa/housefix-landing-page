@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type CardProps = {
   image: string;
@@ -7,7 +8,6 @@ type CardProps = {
   title: string;
   description: string;
   buttonText?: string;
-  onButtonClick?: () => void;
 };
 
 const ServiceCard = ({
@@ -16,7 +16,6 @@ const ServiceCard = ({
   title,
   description,
   buttonText = "Learn More",
-  onButtonClick,
 }: CardProps) => {
   return (
     <div className="group bg-white rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto hover:bg-primary-500 focus:bg-primary-600 transition-all max-h-[447px] border-b-5 border-b-primary-500 select-none">
@@ -47,8 +46,8 @@ const ServiceCard = ({
         </p>
 
         {/* Button */}
+        <Link href={"/services"}>
         <button
-          onClick={onButtonClick}
           className="flex items-center text-primary-800 p1 font-medium text-sm group-hover:text-primary-50 transition-colors duration-200 cursor-pointer"
         >
           {buttonText}
@@ -66,6 +65,7 @@ const ServiceCard = ({
             />
           </svg>
         </button>
+        </Link>
       </div>
     </div>
   );

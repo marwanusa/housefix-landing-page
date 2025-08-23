@@ -10,9 +10,11 @@ const Footer = () => {
       {/* Footer Heading */}
       <div className="flex flex-col xl:flex-row gap-8 justify-between relative mb-14">
         <h1 className="h1 font-bold">Contact us to get a quotation.</h1>
+        <Link href={"/contact-us"}>
         <Button size="md" variant={"secondary"}>
           Contact Us
         </Button>
+        </Link>
       </div>
       <hr />
       {/* Footer Contact Most Left Section*/}
